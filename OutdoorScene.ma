@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: OutdoorScene.ma
-//Last modified: Fri, Feb 28, 2025 02:56:10 PM
+//Last modified: Fri, Feb 28, 2025 03:06:56 PM
 //Codeset: 1252
 file -rdi 1 -ns "GreavyRender" -rfn "GreavyRenderRN" -typ "image" "C:/Users/macey/Downloads/git/slug-spawn/GreavyRender.png";
 file -r -ns "GreavyRender" -dr 1 -rfn "GreavyRenderRN" -typ "image" "C:/Users/macey/Downloads/git/slug-spawn/GreavyRender.png";
@@ -15,7 +15,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202409190603-cbdc5a7e54";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "0FAA968F-4D3B-78D5-8276-45AB8E99BFDE";
+fileInfo "UUID" "20E9F367-42FA-E7FA-F0FA-82B39ACE3FC3";
 createNode transform -s -n "persp";
 	rename -uid "4D274FE0-4777-1BCE-3D30-0995BBAA187E";
 	setAttr ".v" no;
@@ -10245,7 +10245,7 @@ createNode shadingEngine -n "phong3SG";
 createNode materialInfo -n "materialInfo12";
 	rename -uid "D58015E2-4119-0EF0-9439-34B433FBB704";
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "6D454F60-434C-A14E-FD9D-75AD16636BB1";
+	rename -uid "94020EA6-4FDF-AC0A-3F92-07A7AB89BE24";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -340.47617694688273 -1920.9687583559062 ;
 	setAttr ".tgi[0].vh" -type "double2" 436.02398577113735 1454.3021102329064 ;
@@ -10352,7 +10352,7 @@ select -ne :standardSurface1;
 	setAttr ".bc" -type "float3" 0.40000001 0.40000001 0.40000001 ;
 	setAttr ".sr" 0.5;
 select -ne :initialShadingGroup;
-	setAttr -s 7 ".dsm";
+	setAttr -s 6 ".dsm";
 	setAttr ".ro" yes;
 	setAttr -s 6 ".gn";
 select -ne :initialParticleSE;
